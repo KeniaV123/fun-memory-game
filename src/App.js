@@ -1,8 +1,10 @@
+import { CardMemoryGame } from './components/cardMemoryGame/CardMemoryGame';
+import './styles.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>holaaa jojo</h1>
+      <CardMemoryGame />
     </div>
   );
 }

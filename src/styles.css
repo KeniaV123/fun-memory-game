@@ -1,0 +1,15 @@
+.title {
+    color: blueviolet;
+    text-align: center;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    background: pink;
+    margin: 20px;
+    border-radius: 4px;
+    border: solid black;
+}
+
+
