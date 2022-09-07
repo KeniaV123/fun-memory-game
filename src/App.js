@@ -3,8 +3,24 @@ import './styles.css';
 
 function App() {
   return (
-    <div className="App">
-      <CardMemoryGame />
+    <div className="container">
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame /> 
+      <CardMemoryGame />  
+    
     </div>
   );
 }
