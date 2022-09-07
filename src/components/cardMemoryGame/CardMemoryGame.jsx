@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import ReactCardFlip from 'react-card-flip';
-import '../../styles.css';
-
 
 export const CardMemoryGame = () => {
     const [flip, setFlip] = useState(false);
