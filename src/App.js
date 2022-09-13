@@ -1,26 +1,31 @@
 import { CardMemoryGame } from './components/cardMemoryGame/CardMemoryGame';
+import { NavbarGame } from './components/navbar/NavbarGame';
 
 function App() {
   return (
-    <div className="container">
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame /> 
-      <CardMemoryGame />  
-    
-    </div>
+    <>
+      <NavbarGame />
+      
+      <div className="container">
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame /> 
+        <CardMemoryGame />  
+      
+      </div>
+    </>
   );
 }
 

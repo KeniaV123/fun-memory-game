@@ -5,8 +5,10 @@ export const CardMemoryGame = () => {
     const [flip, setFlip] = useState(false);
     
     return (
-        <ReactCardFlip isFlipped={flip} 
-        flipDirection="vertical">
+        <ReactCardFlip
+            isFlipped={flip} 
+            flipDirection="vertical"
+        >
             <div className='card' onClick={() => setFlip(!flip)}>
                 
             </div>
