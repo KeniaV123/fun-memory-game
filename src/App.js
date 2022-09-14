@@ -1,4 +1,4 @@
-import { CardMemoryGame } from './components/cardMemoryGame/CardMemoryGame';
+import { BoardGame } from './components/cardMemoryGame/BoardGame';
 import { NavbarGame } from './components/navbar/NavbarGame';
 
 function App() {
@@ -6,25 +6,7 @@ function App() {
     <>
       <NavbarGame />
       
-      <div className="container">
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame /> 
-        <CardMemoryGame />  
-      
-      </div>
+      <BoardGame/>
     </>
   );
 }
