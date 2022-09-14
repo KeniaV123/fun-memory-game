@@ -10,7 +10,7 @@ export const NavbarGame = () => {
     return (
         <header>
             <a href="/" className="logo nav-link">
-                 Logo
+                Memory Game :)
             </a>
 
             <button 
