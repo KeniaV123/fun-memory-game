@@ -25,7 +25,7 @@ export const NavbarGame = () => {
                     <li className="nav-menu-item">
                         <p className="nav-menu-link nav-link">
                             Categories
-                            <i class="fa-solid fa-caret-down menu-arrow"></i>
+                            <i className="fa-solid fa-caret-down menu-arrow"></i>
                         </p>
                         <ul className="sub-nav-menu">
                             <li className="sub-nav-menu-item"><a href="/" className="nav-menu-link">Dogs</a></li>
