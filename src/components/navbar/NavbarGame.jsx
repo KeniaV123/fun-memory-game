@@ -34,38 +34,5 @@ export const NavbarGame = () => {
                 </ul>
             </nav>
         </header>
-
-        // <header className="header">
-        //     <nav className="nav">
-        //         <a href="/" className="logo nav-link">
-        //             Logo
-        //         </a>
-
-        //         <button 
-        //             className="nav-toggle"
-        //             onClick={ showMenu }
-        //         >
-        //             <i class="fa-solid fa-bars"></i>
-        //         </button>
-
-        //         <ul className="nav-menu nav-menu_visible">
-        //             <li className="nav-menu-item">
-        //             <a href="/" className="nav-menu-link nav-link">
-        //                 Blog
-        //             </a>
-        //             </li>
-        //             <li className="nav-menu-item">
-        //             <a href="/" className="nav-menu-link nav-link">
-        //                 Videos
-        //             </a>
-        //             </li>
-        //             <li className="nav-menu-item">
-        //             <a href="/" className="nav-menu-link nav-link">
-        //                 Contactos
-        //             </a>
-        //             </li>
-        //         </ul>
-        //     </nav>
-        // </header>
     );
 };
