@@ -1,13 +1,8 @@
-import { BoardGame } from './components/cardMemoryGame/BoardGame';
-import { NavbarGame } from './components/navbar/NavbarGame';
+import { AppRouter } from './components/routes/AppRouter';
 
 function App() {
   return (
-    <>
-      <NavbarGame />
-      
-      <BoardGame/>
-    </>
+    <AppRouter />
   );
 }
 

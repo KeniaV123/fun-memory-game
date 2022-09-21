@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const NavbarGame = () => {
 
@@ -9,9 +10,9 @@ export const NavbarGame = () => {
 
     return (
         <header>
-            <a href="/" className="logo nav-link">
+            <Link to="/" className="logo nav-link">
                 Memory Game :)
-            </a>
+            </Link>
 
             <button 
                 className="nav-toggle"
@@ -28,8 +29,8 @@ export const NavbarGame = () => {
                             <i className="fa-solid fa-caret-down menu-arrow"></i>
                         </p>
                         <ul className="sub-nav-menu">
-                            <li className="sub-nav-menu-item"><a href="/" className="nav-menu-link">Dogs</a></li>
-                            <li className="sub-nav-menu-item"><a href="/" className="nav-menu-link">Cats</a></li>
+                            <li className="sub-nav-menu-item"><Link to="/categories/dogs" className="nav-menu-link">Dogs</Link></li>
+                            <li className="sub-nav-menu-item"><Link to="/categories/cats" className="nav-menu-link">Cats</Link></li>
                         </ul>
                     </li>
                 </ul>
