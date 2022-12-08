@@ -1,0 +1,1 @@
+export const dogImages = require.context('../assets/dogImages', true);

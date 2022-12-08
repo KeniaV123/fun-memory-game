@@ -1,0 +1,1 @@
+const catImages = require.context('../assets/catImages', true);
